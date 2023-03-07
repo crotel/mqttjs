@@ -1,31 +1,59 @@
 <html>
 <head>
-	<meta charset="UTF-8">
-	<!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https: data:;">-->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+		<meta charset="UTF-8">
+    <!-- <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script> -->
+    <script type="module" src="mqttjs.js"></script>
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https: data:;">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
 		<!-- <link rel='manifest' href='manifest.json'>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">-->
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <!--    <link rel="manifest" href="site.webmanifest">-->
-    <link rel="mask-icon" color="#595959" href="safari-pinned-tab.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="mqttjs.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="mqttjs@180w.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="mqttjs@32w.png">
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="mqttjs@2x.png"> -->
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="mask-icon" color="#595959" href="mqttjs.svg">
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="ditag">
     <meta name="apple-mobile-web-app-title" content="ditag">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <style type="text/css">
+        *{
+            font-family: monospace, sans-serif, system-ui;
+            font-weight: lighter;
+            -webkit-font-smoothing: subpixel-antialiased;
+            font-smoothing: subpixel-antialiased;
+
+        }
+        h1,h2,h3,h4,h5,h6{
+            font-weight: normal;
+        }
+    </style>
     <title>MQTTJS</title>
 </head>
 <body>
-   <h1>MQTTJS</h1>
-   <h3>MQTT JavaScript Client</h3>
-   <p>Some more about serverless MQTT js client.</p><p>From now on there'r two which more popular:</p><p style="orphans: 2; widows: 2;">MQTT.js By Matteo Collina &amp; Paho.mqtt.javascript by IBM&nbsp;</p>
-
+    <embed type="image/svg+xml" src="./mqttjs.svg" style="
+    object-fit: scale-down;
+    height: 50px;
+    display: block;
+    aspect-ratio: 1/1;
+    width: 50px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 3px 4px #c8c8c8);
+    float: left;
+    margin: 0.5rem calc(0.5rem + 8px) 0.5rem 0.5rem;
+    ">
+    <!-- <h1>MQTTJS</h1> -->
+    <h3>MQTT JavaScript Client</h3>
+    <p>About MQTT Browser-based javaScript client.</p>
+    <p>From now there'r two open-source client which most popular:</p>
+    <p style="orphans: 2; widows: 2;">MQTT.js <a href="https://github.com/mqttjs/MQTT.js">link</a> <i>By Matteo Collina</i></p>
+    <p style="orphans: 2; widows: 2;">&amp;</p>
+    <p style="orphans: 2; widows: 2;">Paho.mqtt.javascript <a href="https://github.com/eclipse/paho.mqtt.javascript">link</a> <i>by IBM&nbsp;</i></p>
 </body>
 </html>
